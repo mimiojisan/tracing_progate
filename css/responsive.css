@@ -1,0 +1,54 @@
+@media screen and (max-width: 1000px) {
+  /* top */
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  /* lesson */
+  .lessons {
+    flex-wrap: wrap;
+  }
+  .lesson {
+    width: 50%;
+    padding-bottom: 50px;
+  }
+  /* footer */
+  footer {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  /* header */
+  .header-right {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  /* top */
+  .top-wrapper {
+    text-align: left;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+  }
+  .btn {
+    width: 100%;
+  }
+  .facebook {
+    margin-bottom: 10px;
+  }
+  /* lesson */
+  .lessons {
+    flex-direction: column;
+  }
+  .lesson {
+    width: 100%;
+  }
+}
